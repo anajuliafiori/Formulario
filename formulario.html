@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<htm>
+
+    <head>
+        <title>Formulário</title>
+    </head>
+
+    <body>
+        <h1>Exemplos de Formulário em HTML</h1>
+        <h3>Exemplo 01</h3>
+        <form>
+            <input type="text" name="nome" placeholder="Nome">
+            <input type="email" name="email" placeholder="Email">
+            <input type="date" name="Nascimento">
+            <input type="tel" name="usertel" placeholder="Celular">
+            <input type="password" name="senha" placeholder="Senha">
+            <input type="submit" name="enviar" value="Cadastrar">
+        </form>
+        <br>
+        <h3>Exemplo 02</h3>
+        <form>
+            <textarea style="width: 400px; height: 100px;">        "texto livre"</textarea>
+        </form>
+        <br>
+        <h3>Exemplo 03</h3>
+        <form>
+            <fieldset>
+                <legend>Formulário</legend>
+                Nome: <input type="text" name="nome"><br><br>
+                Sexo: <input type="radio" name="sexo" value="Masculino">Masculino 
+                <input type="radio" name="sexo" value="Feminino">Feminino<br><br>
+                País: <select name="lista" id="lista">
+                    <option>Selecione uma opção</option>
+                    <option>Brasil</option>
+                    <option>Estados Unidos</option>
+                    <option>Rússia</option>
+                    <option>Canadá</option>
+                    <option>China</option>
+                    <option>Japão</option>
+                    <option>Inglaterra</option>
+                    <option>Peru</option>
+                    <option>Chile</option>
+                    <option>Argentina</option>
+                    </select><br><br>
+                    Mensagem: <br><textarea style="width: 300px; height: 100px;"></textarea><br><br>
+                    <input type="checkbox" name="news" value="assinar">Assinar Newsletter?<br><br>
+                    <input type="submit" name="enviar" value="Enviar">
+            </fieldset>
+        </form> 
+        <br>
+        <h3>Exemplo 04</h3>
+        <!--Consegui fazer pra pesquisar dionãooooo-->
+        <form action="https://www.google.com/search?q=testes+pra+saber+se+a+m%C3%A3o+%C3%A9+firme&rlz=1C1GCEU_pt-BRBR1121BR1121&oq=teste&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MhQIARBFGDkYQxiDARixAxiABBiKBTIGCAIQIxgnMgwIAxAAGEMYgAQYigUyDQgEEAAYgwEYsQMYgAQyBwgFEAAYgAQyBggGEEUYPTIGCAcQRRg80gEIMTc5MWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8">
+           <input type="search" name="q">
+           <button><input type="submit" name="enviar" value="Clique para pesquisar"></button>
+        </form>
+    </body>
+</htm>
